@@ -83,6 +83,10 @@ namespace First
          * Een jaar met jaartal deelbaar door 4 is een schrikkeljaar. Andere jaren zijn gewone jaren. 
          * Maar omwille van de kalenderhervorming zijn ook de jaren deelbaar door 100 gewone jaren (ook al zijn ze deelbaar door 4),
          * tenzij ze deelbaar zijn door 400. Dan zijn ze schrikkeljaren.
+         * Opm.: Verder in de cursus zal je zien dat C# een handige functie heeft om te bepalen dat een jaar een 
+         * schrikkeljaar is en dat je deze functie kan gebruiken i.p.v. zelf de nodige code hiervoor te schrijven. Het
+         * uitwerken van deze code is dus louter als oefening bedoeld. Kijk steeds na of er in je programmeertaal
+         * reeds een gepaste functie voorzien is voordat je zelf een functionaliteit uitwerkt.
          */
         public static string TestSchrikkel(int jaartal)
         {
